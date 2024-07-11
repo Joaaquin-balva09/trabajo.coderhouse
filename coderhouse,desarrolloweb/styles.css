@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background: url('https://acdn.mitiendanube.com/stores/003/565/908/themes/rio/2-slide-1717423765113-4006466430-2faaa3d9162a31bc3421701d40347d741717423771-1920-1920.webp?1657790561') center/cover no-repeat;
+    height: 90vh;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    height: 80px;
+}
+
+.carrito {
+    height: 20px;
+}
+
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navegacion a {
+    padding: 10px 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navegacion a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.dentro-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.cuerpo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.divir {
+    background: url('https://acdn.mitiendanube.com/stores/003/565/908/themes/rio/2-slide-1716907242509-8740046994-a12a32d1ed4aff7964fb3ae3853b14a31716907244-1920-1920.webp?1610528757') center/cover no-repeat;
+    height: 100vh;
+    padding: 10px;
+}
+
+footer {
+    background: #02162c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer div {
+    padding: 0 20px;
+}
+
+.footer h2 {
+    margin-top: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer input[type="email"] {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer button {
+    padding: 10px;
+    border: none;
+    background: #010c4d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background: #5145fc;
+}
+
+.footer-boton {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #444444;
+}
